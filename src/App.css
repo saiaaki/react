@@ -1,2 +1,11 @@
- 
+.msg{
+  background: rgb(185, 228, 241);
+  padding: 10px;
+  width:90%; 
+   
+}
+.center{
+ display: flex;
+ justify-content: center;
+}
  
