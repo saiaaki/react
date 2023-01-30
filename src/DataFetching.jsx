@@ -16,6 +16,7 @@ function DataFetching() {
     } ,[])
   return (
     <div>
+        <h1 align="center">Messages</h1>
         <ul>
             {
                 messages.map(message => <UsersDetails key = {message.id} details = {message}/>)
